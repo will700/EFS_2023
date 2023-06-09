@@ -29,7 +29,7 @@ RPi 2 (on UAV or near the system):
 
 Transmit a signal to move the motor in terminal:
 
-``` mosquitto_pub -t "EFS/target_pos" -m 5
+``` mosquitto_pub -t "EFS/target_pos" -m 5 ```
 
 Where 5 is the target position.
 
