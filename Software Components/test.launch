@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<launch>
+	<!-- Include the MAVROS node with SITL and Gazebo -->
+	<include file="$(find px4)/launch/mavros_posix_sitl.launch"></include>
+	<include file="$(find apriltag_ros)/launch/continuous_detection.launch"></include>
+
+	<!-- Our node to control the drone -->
+	
+	<!--<node pkg="project_work" type="T1_offb.py" name="T1_offb" required="true" output="screen" />-->
+	<node pkg="project_work" type="T2_cam.py" name="T2_cam" required="true" output="screen" />
+	<node pkg="project_work" type="T3_AR.py" name="T3_AR" required="true" output="screen" />
+	<node pkg="project_work" type="T4_vel.py" name="T4_vel" required="true" output="screen" />
+	<!--<node pkg="project_work" type="T5_final.py" name="T5_final" required="true" output="screen" />-->
+</launch>
