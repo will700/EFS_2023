@@ -50,7 +50,7 @@ A list of safety precautions related to the operation of the EFS has been descri
 * Power on the R Pi 4b in the control unit, and the motor
 * Power on the power supply
 * Power on the base station PC and connect to the control unit R Pi 4b
-* Instructions on possible motor commands can be found in the communication section
+* Instructions on connecting to the R Pi 4b and possible motor commands can be found in the communication section
 
 # System shut-down sequence
 * Disconnect from the control unit R Pi 4b and power it off
