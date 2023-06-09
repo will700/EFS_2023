@@ -39,20 +39,20 @@ The instructions for setting up the communication network has been described in 
 A list of safety precautions related to the operation of the EFS has been described below:
 
 * Flight cage with adequate protections should be used for any real-world UAV tests
-## 	Ensure fire prevention kits are available in case of fire due to power components.
-## Do not touch the BSS motor or carousel while in operation.
-## 	All operators should know how to stop the system in case of emergency.
-## Make sure there are no trailing cables and other tripping hazards.
-## 	The UAV batteries should be risk assessed with fire proof storage bags.
-## The motor heats up over longer durations of operation, do not touch.
+*	Ensure fire prevention kits are available in case of fire due to power components.
+* Do not touch the BSS motor or carousel while in operation.
+* All operators should know how to stop the system in case of emergency.
+* Make sure there are no trailing cables and other tripping hazards.
+* The UAV batteries should be risk assessed with fire proof storage bags.
+* The motor heats up over longer durations of operation, do not touch.
 
 # System start-up sequence
-## 	Power on the R Pi 4b in the control unit, and the motor
-## Power on the power supply
-## 	Power on the base station PC and connect to the control unit R Pi 4b
-## Instructions on possible motor commands can be found in the communication section
+* Power on the R Pi 4b in the control unit, and the motor
+* Power on the power supply
+* Power on the base station PC and connect to the control unit R Pi 4b
+* Instructions on possible motor commands can be found in the communication section
 
 # System shut-down sequence
-## 	Disconnect from the control unit R Pi 4b and power it off
-## Switch off the power supply
-## 	Wait till all systems have stopped and cooled
+* Disconnect from the control unit R Pi 4b and power it off
+* Switch off the power supply
+* Wait till all systems have stopped and cooled
