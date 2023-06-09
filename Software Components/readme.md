@@ -33,4 +33,3 @@ Transmit a signal to move the motor in terminal:
 
 Where 5 is the target position.
 
-
