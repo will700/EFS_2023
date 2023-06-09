@@ -1,4 +1,4 @@
-## Autonomous Flight
+# Autonomous Flight
 
 Autonomous flight contains 5 test files and a launch file for ROS Noetic/Gazebo.
 
@@ -7,13 +7,13 @@ The launch file can be edited to launch the 5 test files.
 These test files can be sequentially used to test the different autonomous flight functionalities.
 
 
-## Motor control
+# Motor control
 
 The motor control files can be used to control the motor wirelessly using MQTT/Mosquitto. This requires two raspberry pis running linux (4B+ was used).
 
 
 
-RPi 1 (connected to the motor driver board/motor):
+## RPi 1 (connected to the motor driver board/motor):
 
 BSS_master.py can be ran using (sudo must be used) in terminal:
 
@@ -25,7 +25,7 @@ This RPi will then continue monitoring the "EFS/target_pos" MQTT topic.
 
 
 
-RPi 2 (on UAV or near the system):
+## RPi 2 (on UAV or near the system):
 
 Transmit a signal to move the motor in terminal:
 
