@@ -21,8 +21,8 @@ The main issue that the system was facing at the point of the handover was motor
 * Possible Fixes: Due to the Holybro drone legs not being fixated, it might cause the battery cage mounted below it to be tilted and unlevelled. By changing the position of the drone legs, the level of the cage can be adjusted. Also ensure that battery cage is tied to the bottom of the UAV correctly.
 * Another fix, clip the sharp edges of the battery modules so it has smooth edges. This is to make sure that the module slots into the cage correctly.
 
-## Alignment system:
+## Alignment system
 * The state-of-the-art wooden alignment system (popsicle sticks) might be ensured that its alignment perpendicular to the system so the IR sensor can align the modules accurately. However, please replace it popsicle sticks with a better alignment model.
 
-## Blade components:
+## Blade components
 This can be considered future work however due to the University’s workshop manufacturing capabilities the blade component was not manufactured to size. Shrink the height of the female blade component and extend the metallic nickel plates across to better ensure connectively. Also shrink the height of the male blade component platform to ensure when both components are connected, they are levelled.
