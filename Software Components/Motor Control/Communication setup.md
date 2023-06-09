@@ -1,6 +1,6 @@
-# Raspberry Pi configuration guide
+# Communication Setup
 
-A comprehensive guide to implement a number of functionalities on a Raspberry Pi 3A using ubuntu 20.04. Although this is configured to work with a Raspberry Pi 3A, much of it should work on different Pi's, especially a 4B.
+A guide to set up a raspberry pi for communication.
 
 ## Table of contents  
   - [All Packages](#all-packages)
@@ -25,7 +25,7 @@ A comprehensive guide to implement a number of functionalities on a Raspberry Pi
 
 ## Installing packages
 
-Here is a list of the commands used to install all the packages used within this document. 
+Here is a list of the commands used to install all the packages used within this document. Doing this all in one go might be useful if internet access becomes difficult (as the rpi will be on another network).
 
 ``` sudo apt-get install ros-indigo-noetic-view ```
 
