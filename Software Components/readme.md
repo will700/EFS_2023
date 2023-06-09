@@ -1,4 +1,4 @@
-# Autonomous Flight
+## Autonomous Flight
 
 Autonomous flight contains 5 test files and a launch file for ROS Noetic/Gazebo.
 
@@ -7,7 +7,7 @@ The launch file can be edited to launch the 5 test files.
 These test files can be sequentially used to test the different autonomous flight functionalities.
 
 
-# Motor control
+## Motor control
 
 The motor control files can be used to control the motor wirelessly using MQTT/Mosquitto. This requires two raspberry pis running linux (4B+ was used).
 
