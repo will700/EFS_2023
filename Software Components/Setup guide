@@ -1,6 +1,6 @@
 # Raspberry Pi configuration guide
 
-A comprehensive guide to implement a number of functionalities on a Raspberry Pi 3A using ubuntu 20.04. Although this is configured to work with a Raspberry Pi 3A, much of it should work on different Pi's, especially a 4B.
+A guide to implement a number of functionalities on a Raspberry Pi 3A using ubuntu 20.04. Although this is configured to work with a Raspberry Pi 3A, much of it should work on different Pi's, especially a 4B.
 
 ## Table of contents  
   - [All Packages](#all-packages)
@@ -22,14 +22,6 @@ A comprehensive guide to implement a number of functionalities on a Raspberry Pi
     * [Display live image on web](#display-live-image-on-web)
   - [Install April Tag library](#install-april-tag-library)
   - [Configure I2C and install motorkit library](#configure-i2c-and-install-motorkit-library)
-
-## Installing packages
-
-Here is a list of the commands used to install all the packages used within this document. 
-
-``` sudo apt-get install ros-indigo-noetic-view ```
-
-``` sudo apt install ros-noetic-web-video-server ```
 
 ## Install Ubuntu
 
@@ -234,7 +226,7 @@ This will then run a simulation of the drone.
 
 ### Install QGroundControl
 
-QGroundControl is
+QGroundControl does not work on RPi architecture. To get it working on RPi architecture flatpak is used.
 
 https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html
 
