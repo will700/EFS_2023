@@ -38,7 +38,7 @@ The instructions for setting up the communication network has been described in 
 # Safety precautions
 A list of safety precautions related to the operation of the EFS has been described below:
 
-## Flight cage with adequate protections should be used for any real-world UAV tests
+* Flight cage with adequate protections should be used for any real-world UAV tests
 ## 	Ensure fire prevention kits are available in case of fire due to power components.
 ## Do not touch the BSS motor or carousel while in operation.
 ## 	All operators should know how to stop the system in case of emergency.
